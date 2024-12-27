@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/CMakeFiles/curl-populate
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/CMakeFiles/curl-populate.rule
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/CMakeFiles/curl-populate-complete.rule
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build.rule
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure.rule
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download.rule
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install.rule
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir.rule
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch.rule
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test.rule
+E:/dev/VS/API/Client/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update.rule

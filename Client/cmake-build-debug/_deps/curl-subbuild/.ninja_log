@@ -1,0 +1,21 @@
+# ninja log v5
+0	86	7462785860751308	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	cb13198d6f51c090
+2958	3029	7462785890183064	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	9128988e97e95ee3
+3530	3675	7462785896622689	C:/dev/Clione/MSU/API/Client/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	b0fcfc826721e1b4
+3530	3675	7462785896622689	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	b0fcfc826721e1b4
+0	86	7462785860751308	C:/dev/Clione/MSU/API/Client/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	cb13198d6f51c090
+87	2957	7462785889443781	C:/dev/Clione/MSU/API/Client/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	93680e7364b2e19d
+87	2957	7462785889443781	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	93680e7364b2e19d
+2958	3029	7462785890183064	C:/dev/Clione/MSU/API/Client/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	9128988e97e95ee3
+3029	3128	7462785891154546	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	4b29e16a4ae8852a
+3422	3530	7462785895143045	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	78510036341ea01c
+3029	3128	7462785891154546	C:/dev/Clione/MSU/API/Client/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	4b29e16a4ae8852a
+3129	3231	7462785892152208	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	5ef072dab1239f0c
+3129	3231	7462785892152208	C:/dev/Clione/MSU/API/Client/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	5ef072dab1239f0c
+3231	3318	7462785893033131	C:/dev/Clione/MSU/API/Client/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	6bf2914375314417
+3318	3422	7462785894085006	C:/dev/Clione/MSU/API/Client/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	154323fa470df7ce
+3231	3318	7462785893033131	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	6bf2914375314417
+3318	3422	7462785894085006	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	154323fa470df7ce
+3422	3530	7462785895143045	C:/dev/Clione/MSU/API/Client/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	78510036341ea01c
+3530	3675	7462785896622689	CMakeFiles/curl-populate-complete	b0fcfc826721e1b4
+3530	3675	7462785896622689	C:/dev/Clione/MSU/API/Client/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	b0fcfc826721e1b4

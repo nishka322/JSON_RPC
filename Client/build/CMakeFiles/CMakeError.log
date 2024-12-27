@@ -1,0 +1,202 @@
+Performing Curl Test HAVE_FCNTL_O_NONBLOCK failed with the following output:
+Change Dir: 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/dev/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3a868/fast
+C:/dev/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3a868.dir\build.make CMakeFiles/cmTC_3a868.dir/build
+mingw32-make[1]: Entering directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a868.dir/CurlTests.c.obj
+C:\dev\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_FCNTL_O_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_3a868.dir\CurlTests.c.obj -c E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:49:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   49 | main ()
+      | ^~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:53:15: warning: implicit declaration of function 'fcntl' [-Wimplicit-function-declaration]
+   53 |       if(0 != fcntl(0, F_SETFL, flags | O_NONBLOCK))
+      |               ^~~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:53:15: warning: nested extern declaration of 'fcntl' [-Wnested-externs]
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:53:24: error: 'F_SETFL' undeclared (first use in this function)
+   53 |       if(0 != fcntl(0, F_SETFL, flags | O_NONBLOCK))
+      |                        ^~~~~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:53:24: note: each undeclared identifier is reported only once for each function it appears in
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:53:41: error: 'O_NONBLOCK' undeclared (first use in this function)
+   53 |       if(0 != fcntl(0, F_SETFL, flags | O_NONBLOCK))
+      |                                         ^~~~~~~~~~
+mingw32-make[1]: *** [CMakeFiles\cmTC_3a868.dir\build.make:80: CMakeFiles/cmTC_3a868.dir/CurlTests.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:133: cmTC_3a868/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/dev/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4929c/fast
+C:/dev/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4929c.dir\build.make CMakeFiles/cmTC_4929c.dir/build
+mingw32-make[1]: Entering directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4929c.dir/CurlTests.c.obj
+C:\dev\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_4929c.dir\CurlTests.c.obj -c E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:224:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  224 | main ()
+      | ^~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:228:13: warning: implicit declaration of function 'IoctlSocket'; did you mean 'ioctlsocket'? [-Wimplicit-function-declaration]
+  228 |     if(0 != IoctlSocket(0, 0, 0))
+      |             ^~~~~~~~~~~
+      |             ioctlsocket
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:228:13: warning: nested extern declaration of 'IoctlSocket' [-Wnested-externs]
+Linking C executable cmTC_4929c.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4929c.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4929c.dir/objects.a
+C:\dev\mingw64\bin\ar.exe qc CMakeFiles\cmTC_4929c.dir/objects.a @CMakeFiles\cmTC_4929c.dir\objects1.rsp
+C:\dev\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -Wl,--whole-archive CMakeFiles\cmTC_4929c.dir/objects.a -Wl,--no-whole-archive -o cmTC_4929c.exe -Wl,--out-implib,libcmTC_4929c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4929c.dir\linkLibs.rsp
+c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_4929c.dir/objects.a(CurlTests.c.obj):CurlTests.c:(.text+0x1e): undefined reference to `IoctlSocket'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_4929c.dir\build.make:103: cmTC_4929c.exe] Error 1
+mingw32-make[1]: Leaving directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:133: cmTC_4929c/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/dev/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1219e/fast
+C:/dev/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1219e.dir\build.make CMakeFiles/cmTC_1219e.dir/build
+mingw32-make[1]: Entering directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1219e.dir/CurlTests.c.obj
+C:\dev\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_1219e.dir\CurlTests.c.obj -c E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:247:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  247 | main ()
+      | ^~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:252:17: warning: implicit declaration of function 'IoctlSocket'; did you mean 'ioctlsocket'? [-Wimplicit-function-declaration]
+  252 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                 ^~~~~~~~~~~
+      |                 ioctlsocket
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:252:17: warning: nested extern declaration of 'IoctlSocket' [-Wnested-externs]
+Linking C executable cmTC_1219e.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1219e.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1219e.dir/objects.a
+C:\dev\mingw64\bin\ar.exe qc CMakeFiles\cmTC_1219e.dir/objects.a @CMakeFiles\cmTC_1219e.dir\objects1.rsp
+C:\dev\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -Wl,--whole-archive CMakeFiles\cmTC_1219e.dir/objects.a -Wl,--no-whole-archive -o cmTC_1219e.exe -Wl,--out-implib,libcmTC_1219e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1219e.dir\linkLibs.rsp
+c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_1219e.dir/objects.a(CurlTests.c.obj):CurlTests.c:(.text+0x26): undefined reference to `IoctlSocket'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_1219e.dir\build.make:103: cmTC_1219e.exe] Error 1
+mingw32-make[1]: Leaving directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:133: cmTC_1219e/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTL_FIONBIO failed with the following output:
+Change Dir: 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/dev/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3e4f5/fast
+C:/dev/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3e4f5.dir\build.make CMakeFiles/cmTC_3e4f5.dir/build
+mingw32-make[1]: Entering directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e4f5.dir/CurlTests.c.obj
+C:\dev\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_3e4f5.dir\CurlTests.c.obj -c E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:302:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  302 | main ()
+      | ^~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:306:17: warning: implicit declaration of function 'ioctl' [-Wimplicit-function-declaration]
+  306 |         if(0 != ioctl(0, FIONBIO, &flags))
+      |                 ^~~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:306:17: warning: nested extern declaration of 'ioctl' [-Wnested-externs]
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:306:26: error: 'FIONBIO' undeclared (first use in this function)
+  306 |         if(0 != ioctl(0, FIONBIO, &flags))
+      |                          ^~~~~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:306:26: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_3e4f5.dir\build.make:80: CMakeFiles/cmTC_3e4f5.dir/CurlTests.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:133: cmTC_3e4f5/fast] Error 2
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/dev/mingw64/bin/mingw32-make.exe -f Makefile cmTC_eaced/fast
+C:/dev/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_eaced.dir\build.make CMakeFiles/cmTC_eaced.dir/build
+mingw32-make[1]: Entering directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eaced.dir/CurlTests.c.obj
+C:\dev\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_eaced.dir\CurlTests.c.obj -c E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:365:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  365 | main ()
+      | ^~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:367:43: error: 'SO_NONBLOCK' undeclared (first use in this function)
+  367 |         if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+      |                                           ^~~~~~~~~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:367:43: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_eaced.dir\build.make:80: CMakeFiles/cmTC_eaced.dir/CurlTests.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:133: cmTC_eaced/fast] Error 2
+
+
+Performing Curl Test HAVE_POSIX_STRERROR_R failed with the following output:
+Change Dir: 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/dev/mingw64/bin/mingw32-make.exe -f Makefile cmTC_957b7/fast
+C:/dev/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_957b7.dir\build.make CMakeFiles/cmTC_957b7.dir/build
+mingw32-make[1]: Entering directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_957b7.dir/CurlTests.c.obj
+C:\dev\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_POSIX_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_957b7.dir\CurlTests.c.obj -c E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:392:6: warning: no previous prototype for 'check' [-Wmissing-prototypes]
+  392 | void check(float f) {}
+      |      ^~~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c: In function 'check':
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:392:18: warning: unused parameter 'f' [-Wunused-parameter]
+  392 | void check(float f) {}
+      |            ~~~~~~^
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c: At top level:
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:395:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  395 | main () {
+      | ^~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:398:9: warning: implicit declaration of function 'strerror_r'; did you mean 'strerror_s'? [-Wimplicit-function-declaration]
+  398 |   check(strerror_r(EACCES, buffer, sizeof(buffer)));
+      |         ^~~~~~~~~~
+      |         strerror_s
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:398:9: warning: nested extern declaration of 'strerror_r' [-Wnested-externs]
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:398:9: warning: conversion from 'int' to 'float' may change value [-Wconversion]
+  398 |   check(strerror_r(EACCES, buffer, sizeof(buffer)));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_957b7.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_957b7.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_957b7.dir/objects.a
+C:\dev\mingw64\bin\ar.exe qc CMakeFiles\cmTC_957b7.dir/objects.a @CMakeFiles\cmTC_957b7.dir\objects1.rsp
+C:\dev\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_POSIX_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -Wl,--whole-archive CMakeFiles\cmTC_957b7.dir/objects.a -Wl,--no-whole-archive -o cmTC_957b7.exe -Wl,--out-implib,libcmTC_957b7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_957b7.dir\linkLibs.rsp
+c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_957b7.dir/objects.a(CurlTests.c.obj):CurlTests.c:(.text+0x34): undefined reference to `strerror_r'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_957b7.dir\build.make:103: cmTC_957b7.exe] Error 1
+mingw32-make[1]: Leaving directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:133: cmTC_957b7/fast] Error 2
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/dev/mingw64/bin/mingw32-make.exe -f Makefile cmTC_17cc5/fast
+C:/dev/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_17cc5.dir\build.make CMakeFiles/cmTC_17cc5.dir/build
+mingw32-make[1]: Entering directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17cc5.dir/CurlTests.c.obj
+C:\dev\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_BUILTIN_AVAILABLE  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_17cc5.dir\CurlTests.c.obj -c E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:429:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+  429 | main() {
+      | ^~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:430:6: warning: implicit declaration of function '__builtin_available'; did you mean '__builtin_scalbl'? [-Wimplicit-function-declaration]
+  430 |   if(__builtin_available(macOS 10.12, *)) {}
+      |      ^~~~~~~~~~~~~~~~~~~
+      |      __builtin_scalbl
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:430:6: warning: nested extern declaration of '__builtin_available' [-Wnested-externs]
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:430:26: error: 'macOS' undeclared (first use in this function)
+  430 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                          ^~~~~
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:430:26: note: each undeclared identifier is reported only once for each function it appears in
+E:\dev\VS\API\Client\build\_deps\curl-src\CMake\CurlTests.c:430:31: error: expected ')' before numeric constant
+  430 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                         ~     ^~~~~~
+      |                               )
+mingw32-make[1]: *** [CMakeFiles\cmTC_17cc5.dir\build.make:80: CMakeFiles/cmTC_17cc5.dir/CurlTests.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'E:/dev/VS/API/Client/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:133: cmTC_17cc5/fast] Error 2
+
+

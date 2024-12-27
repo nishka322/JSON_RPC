@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cpr_example.dir/objects.a
+C:\dev\mingw64\bin\ar.exe qc CMakeFiles\cpr_example.dir/objects.a @CMakeFiles\cpr_example.dir\objects1.rsp
+C:\dev\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cpr_example.dir/objects.a -Wl,--no-whole-archive -o cpr_example.exe -Wl,--out-implib,libcpr_example.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cpr_example.dir\linkLibs.rsp

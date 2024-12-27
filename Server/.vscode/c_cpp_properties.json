@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "E:/dev/VS/API/Server/",
+                "E:/dev/VS/API/Server/libs/upd_24.12.2024/cpp-httplib",
+                "E:/dev/VS/API/Server/libs/upd_24.12.2024/tinyxml2",
+                "E:/dev/VS/API/Server/libs/libpqxx-7.9.2/include/pqxx/",
+                "E:/dev/VS/API/Server/libs/upd_24.12.2024/json-develop/include",
+                "E:/dev/VS/API/Server/libs/libpqxx-7.9.2/include",
+                "C:/Program Files/PostgreSQL/16/include",
+                "C:/msys64/mingw64/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

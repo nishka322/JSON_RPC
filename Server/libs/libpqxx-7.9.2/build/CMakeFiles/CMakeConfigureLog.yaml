@@ -1,0 +1,936 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/dev/mingw64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/3.26.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeScratch/TryCompile-trc3r0"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeScratch/TryCompile-trc3r0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeScratch/TryCompile-trc3r0
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_a7087 && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj -c C:/dev/mingw64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\dev\\mingw64\\bin\\c++.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-11.4.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-11.4.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7087.dir/'
+         c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/cc1plus.exe -quiet -v -iprefix c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/ -D_REENTRANT C:/dev/mingw64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a7087.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\4D88~1\\AppData\\Local\\Temp\\cchd5pJp.s
+        GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 11.4.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0"
+        ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/backward"
+        ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/include"
+        ignoring nonexistent directory "R:/winlibs64ucrt_stage/inst_gcc-11.4.0/share/gcc/include"
+        ignoring nonexistent directory "/R/winlibs64ucrt_stage/inst_gcc-11.4.0/share/gcc/include"
+        ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/include-fixed"
+        ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0
+         c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/x86_64-w64-mingw32
+         c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/backward
+         c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/include
+         c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include
+         c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/include-fixed
+         c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 11.4.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 23ec91c6c547fda0b86aa3d44bdd67ad
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7087.dir/'
+         c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\4D88~1\\AppData\\Local\\Temp\\cchd5pJp.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.40
+        COMPILER_PATH=c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/;c:/dev/mingw64/bin/../libexec/gcc/;c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/;c:/dev/mingw64/bin/../lib/gcc/;c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../lib/;c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/;c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe  -v CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a7087.exe -Wl,--out-implib,libcmTC_a7087.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\dev\\mingw64\\bin\\c++.exe
+        COLLECT_LTO_WRAPPER=c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/lto-wrapper.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-11.4.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-11.4.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
+        COMPILER_PATH=c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/;c:/dev/mingw64/bin/../libexec/gcc/;c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/;c:/dev/mingw64/bin/../lib/gcc/;c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../lib/;c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/;c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7087.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a7087.'
+         c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/collect2.exe -plugin c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/liblto_plugin.dll -plugin-opt=c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\4D88~1\\AppData\\Local\\Temp\\ccP24A7w.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a7087.exe c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/crtbegin.o -Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0 -Lc:/dev/mingw64/bin/../lib/gcc -Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../lib -Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib -Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../.. CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_a7087.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7087.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a7087.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0]
+          add: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/x86_64-w64-mingw32]
+          add: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/backward]
+          add: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/include]
+          add: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include]
+          add: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/include-fixed]
+          add: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0] ==> [C:/dev/mingw64/include/c++/11.4.0]
+        collapse include dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/x86_64-w64-mingw32] ==> [C:/dev/mingw64/include/c++/11.4.0/x86_64-w64-mingw32]
+        collapse include dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/backward] ==> [C:/dev/mingw64/include/c++/11.4.0/backward]
+        collapse include dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/include] ==> [C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include]
+        collapse include dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include] ==> [C:/dev/mingw64/include]
+        collapse include dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/include-fixed] ==> [C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include-fixed]
+        collapse include dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/include] ==> [C:/dev/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/dev/mingw64/include/c++/11.4.0;C:/dev/mingw64/include/c++/11.4.0/x86_64-w64-mingw32;C:/dev/mingw64/include/c++/11.4.0/backward;C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include;C:/dev/mingw64/include;C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include-fixed;C:/dev/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeScratch/TryCompile-trc3r0]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_a7087 && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj -c C:/dev/mingw64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\dev\\mingw64\\bin\\c++.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-11.4.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-11.4.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7087.dir/']
+        ignore line: [ c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/cc1plus.exe -quiet -v -iprefix c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/ -D_REENTRANT C:/dev/mingw64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a7087.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\4D88~1\\AppData\\Local\\Temp\\cchd5pJp.s]
+        ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) version 11.4.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0"]
+        ignore line: [ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/backward"]
+        ignore line: [ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/include"]
+        ignore line: [ignoring nonexistent directory "R:/winlibs64ucrt_stage/inst_gcc-11.4.0/share/gcc/include"]
+        ignore line: [ignoring nonexistent directory "/R/winlibs64ucrt_stage/inst_gcc-11.4.0/share/gcc/include"]
+        ignore line: [ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "c:/dev/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0]
+        ignore line: [ c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/x86_64-w64-mingw32]
+        ignore line: [ c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include/c++/11.4.0/backward]
+        ignore line: [ c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/include]
+        ignore line: [ c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../include]
+        ignore line: [ c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/include-fixed]
+        ignore line: [ c:\\dev\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) version 11.4.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 23ec91c6c547fda0b86aa3d44bdd67ad]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7087.dir/']
+        ignore line: [ c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\4D88~1\\AppData\\Local\\Temp\\cchd5pJp.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders) 2.40]
+        ignore line: [COMPILER_PATH=c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/]
+        ignore line: [c:/dev/mingw64/bin/../libexec/gcc/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../lib/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe  -v CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a7087.exe -Wl --out-implib libcmTC_a7087.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\dev\\mingw64\\bin\\c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/lto-wrapper.exe]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-11.4.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-11.4.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) ]
+        ignore line: [COMPILER_PATH=c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/]
+        ignore line: [c:/dev/mingw64/bin/../libexec/gcc/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../lib/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7087.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a7087.']
+        link line: [ c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/collect2.exe -plugin c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/liblto_plugin.dll -plugin-opt=c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\4D88~1\\AppData\\Local\\Temp\\ccP24A7w.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a7087.exe c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/crtbegin.o -Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0 -Lc:/dev/mingw64/bin/../lib/gcc -Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../lib -Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib -Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../.. CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_a7087.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/crtend.o]
+          arg [c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=c:/dev/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.4.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\4D88~1\\AppData\\Local\\Temp\\ccP24A7w.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_a7087.exe] ==> ignore
+          arg [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/crtbegin.o] ==> obj [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/crtbegin.o]
+          arg [-Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0] ==> dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0]
+          arg [-Lc:/dev/mingw64/bin/../lib/gcc] ==> dir [c:/dev/mingw64/bin/../lib/gcc]
+          arg [-Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../lib] ==> dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../lib]
+          arg [-Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-Lc:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../..] ==> dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../..]
+          arg [CMakeFiles/cmTC_a7087.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_a7087.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/crtend.o] ==> obj [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/dev/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/crtbegin.o] ==> [C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/crtbegin.o]
+        collapse obj [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/crtend.o] ==> [C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/crtend.o]
+        collapse library dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0] ==> [C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0]
+        collapse library dir [c:/dev/mingw64/bin/../lib/gcc] ==> [C:/dev/mingw64/lib/gcc]
+        collapse library dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/dev/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../lib] ==> [C:/dev/mingw64/lib]
+        collapse library dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/dev/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../..] ==> [C:/dev/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/dev/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/crtbegin.o;C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/crtend.o]
+        implicit dirs: [C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0;C:/dev/mingw64/lib/gcc;C:/dev/mingw64/x86_64-w64-mingw32/lib;C:/dev/mingw64/lib]
+        implicit fwks: []
+      
+      
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/dev/mingw64/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "cmake/config.cmake:37 (check_function_exists)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeScratch/TryCompile-eyaf1e"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeScratch/TryCompile-eyaf1e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeScratch/TryCompile-eyaf1e
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_b243d && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -DCHECK_FUNCTION_EXISTS=poll -std=c++17 -o CMakeFiles/cmTC_b243d.dir/CheckFunctionExists.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeScratch/TryCompile-eyaf1e/CheckFunctionExists.cxx
+        [2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe -DCHECK_FUNCTION_EXISTS=poll  CMakeFiles/cmTC_b243d.dir/CheckFunctionExists.cxx.obj -o cmTC_b243d.exe -Wl,--out-implib,libcmTC_b243d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_b243d.exe 
+        cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe -DCHECK_FUNCTION_EXISTS=poll  CMakeFiles/cmTC_b243d.dir/CheckFunctionExists.cxx.obj -o cmTC_b243d.exe -Wl,--out-implib,libcmTC_b243d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        c:/dev/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.4.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles/cmTC_b243d.dir/CheckFunctionExists.cxx.obj:CheckFunctionExists.cxx:(.text+0x15): undefined reference to `poll'\x0d
+        collect2.exe: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:2 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_ed9f1 && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_ed9f1.dir/PQXX_HAVE_CHARCONV_FLOAT.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CHARCONV_FLOAT.cxx
+        FAILED: CMakeFiles/cmTC_ed9f1.dir/PQXX_HAVE_CHARCONV_FLOAT.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_ed9f1.dir/PQXX_HAVE_CHARCONV_FLOAT.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CHARCONV_FLOAT.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CHARCONV_FLOAT.cxx: In function 'int main()':
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CHARCONV_FLOAT.cxx:12:28: error: no matching function for call to 'from_chars(const char*, const char*, long double&)'
+           12 |   auto rf = std::from_chars(std::cbegin(z), std::cend(z), n);
+              |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        In file included from C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CHARCONV_FLOAT.cxx:2:
+        c:\\dev\\mingw64\\include\\c++\\11.4.0\\charconv:593:5: note: candidate: 'template<class _Tp> std::__detail::__integer_from_chars_result_type<_Tp> std::from_chars(const char*, const char*, _Tp&, int)'
+          593 |     from_chars(const char* __first, const char* __last, _Tp& __value,
+              |     ^~~~~~~~~~
+        c:\\dev\\mingw64\\include\\c++\\11.4.0\\charconv:593:5: note:   template argument deduction/substitution failed:
+        In file included from c:\\dev\\mingw64\\include\\c++\\11.4.0\\charconv:40,
+                         from C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CHARCONV_FLOAT.cxx:2:
+        c:\\dev\\mingw64\\include\\c++\\11.4.0\\type_traits: In substitution of 'template<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::from_chars_result]':
+        c:\\dev\\mingw64\\include\\c++\\11.4.0\\charconv:582:11:   required by substitution of 'template<class _Tp> using __integer_from_chars_result_type = std::enable_if_t<std::__or_<std::__is_one_of<typename std::remove_cv< <template-parameter-1-1> >::type, signed char, short int, int, long int, long long int>, std::__is_one_of<typename std::remove_cv< <template-parameter-1-1> >::type, unsigned char, short unsigned int, unsigned int, long unsigned int, long long unsigned int>, std::is_same<char, typename std::remove_cv< <template-parameter-1-1> >::type> >::value, std::from_chars_result> [with _Tp = long double]'
+        c:\\dev\\mingw64\\include\\c++\\11.4.0\\charconv:593:5:   required by substitution of 'template<class _Tp> std::__detail::__integer_from_chars_result_type<_Tp> std::from_chars(const char*, const char*, _Tp&, int) [with _Tp = long double]'
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CHARCONV_FLOAT.cxx:12:28:   required from here
+        c:\\dev\\mingw64\\include\\c++\\11.4.0\\type_traits:2579:11: error: no type named 'type' in 'struct std::enable_if<false, std::from_chars_result>'
+         2579 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+              |           ^~~~~~~~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:6 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_INT"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_92a7c && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_92a7c.dir/PQXX_HAVE_CHARCONV_INT.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CHARCONV_INT.cxx
+        [2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe   CMakeFiles/cmTC_92a7c.dir/PQXX_HAVE_CHARCONV_INT.cxx.obj -o cmTC_92a7c.exe -Wl,--out-implib,libcmTC_92a7c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:10 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CMP"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_17cbf && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_17cbf.dir/PQXX_HAVE_CMP.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CMP.cxx
+        FAILED: CMakeFiles/cmTC_17cbf.dir/PQXX_HAVE_CMP.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_17cbf.dir/PQXX_HAVE_CMP.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CMP.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CMP.cxx: In function 'int main()':
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CMP.cxx:8:15: error: 'cmp_greater' is not a member of 'std'
+            8 |   return std::cmp_greater(-1, 2u) && std::cmp_less_equal(3, 0);
+              |               ^~~~~~~~~~~
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CMP.cxx:8:43: error: 'cmp_less_equal' is not a member of 'std'
+            8 |   return std::cmp_greater(-1, 2u) && std::cmp_less_equal(3, 0);
+              |                                           ^~~~~~~~~~~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:14 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_15f59 && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_15f59.dir/PQXX_HAVE_CONCEPTS.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CONCEPTS.cxx
+        FAILED: CMakeFiles/cmTC_15f59.dir/PQXX_HAVE_CONCEPTS.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_15f59.dir/PQXX_HAVE_CONCEPTS.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CONCEPTS.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CONCEPTS.cxx:5:4: error: #error "No PQXX_HAVE_CONCEPTS: __cpp_concepts is not set."
+            5 | #  error "No PQXX_HAVE_CONCEPTS: __cpp_concepts is not set."
+              |    ^~~~~
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CONCEPTS.cxx:8:4: error: #error "No PQXX_HAVE_CONCEPTS: __cpp_concepts is false."
+            8 | #  error "No PQXX_HAVE_CONCEPTS: __cpp_concepts is false."
+              |    ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:18 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CXA_DEMANGLE"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_67c91 && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_67c91.dir/PQXX_HAVE_CXA_DEMANGLE.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_CXA_DEMANGLE.cxx
+        [2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe   CMakeFiles/cmTC_67c91.dir/PQXX_HAVE_CXA_DEMANGLE.cxx.obj -o cmTC_67c91.exe -Wl,--out-implib,libcmTC_67c91.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:22 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_PURE"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_6a4e5 && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_6a4e5.dir/PQXX_HAVE_GCC_PURE.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_GCC_PURE.cxx
+        [2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe   CMakeFiles/cmTC_6a4e5.dir/PQXX_HAVE_GCC_PURE.cxx.obj -o cmTC_6a4e5.exe -Wl,--out-implib,libcmTC_6a4e5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:26 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_f2a4b && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_f2a4b.dir/PQXX_HAVE_GCC_VISIBILITY.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_GCC_VISIBILITY.cxx
+        [2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe   CMakeFiles/cmTC_f2a4b.dir/PQXX_HAVE_GCC_VISIBILITY.cxx.obj -o cmTC_f2a4b.exe -Wl,--out-implib,libcmTC_f2a4b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:30 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_LIKELY"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_b01fc && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_b01fc.dir/PQXX_HAVE_LIKELY.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_LIKELY.cxx
+        FAILED: CMakeFiles/cmTC_b01fc.dir/PQXX_HAVE_LIKELY.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_b01fc.dir/PQXX_HAVE_LIKELY.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_LIKELY.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_LIKELY.cxx: In function 'int main(int, char**)':
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_LIKELY.cxx:7:21: error: 'because' was not declared in this scope
+            7 |   deliberately_fail(because, older, C++, standard);
+              |                     ^~~~~~~
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_LIKELY.cxx:7:30: error: 'older' was not declared in this scope
+            7 |   deliberately_fail(because, older, C++, standard);
+              |                              ^~~~~
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_LIKELY.cxx:7:37: error: 'C' was not declared in this scope
+            7 |   deliberately_fail(because, older, C++, standard);
+              |                                     ^
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_LIKELY.cxx:7:42: error: 'standard' was not declared in this scope
+            7 |   deliberately_fail(because, older, C++, standard);
+              |                                          ^~~~~~~~
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_LIKELY.cxx:7:3: error: 'deliberately_fail' was not declared in this scope
+            7 |   deliberately_fail(because, older, C++, standard);
+              |   ^~~~~~~~~~~~~~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:34 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_MULTIDIM"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_2efe5 && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_2efe5.dir/PQXX_HAVE_MULTIDIM.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_MULTIDIM.cxx
+        FAILED: CMakeFiles/cmTC_2efe5.dir/PQXX_HAVE_MULTIDIM.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_2efe5.dir/PQXX_HAVE_MULTIDIM.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_MULTIDIM.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_MULTIDIM.cxx:5:4: error: #error "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is not set."
+            5 | #  error "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is not set."
+              |    ^~~~~
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_MULTIDIM.cxx:8:4: error: #error "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is false."
+            8 | #  error "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is false."
+              |    ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:38 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_PATH"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_2c19e && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_2c19e.dir/PQXX_HAVE_PATH.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_PATH.cxx
+        [2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe   CMakeFiles/cmTC_2c19e.dir/PQXX_HAVE_PATH.cxx.obj -o cmTC_2c19e.exe -Wl,--out-implib,libcmTC_2c19e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:42 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_0662b && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_0662b.dir/PQXX_HAVE_POLL.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_POLL.cxx
+        FAILED: CMakeFiles/cmTC_0662b.dir/PQXX_HAVE_POLL.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_0662b.dir/PQXX_HAVE_POLL.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_POLL.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_POLL.cxx:2:10: fatal error: poll.h: No such file or directory
+            2 | #include <poll.h>
+              |          ^~~~~~~~
+        compilation terminated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:46 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SLEEP_FOR"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_2ea5c && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_2ea5c.dir/PQXX_HAVE_SLEEP_FOR.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SLEEP_FOR.cxx
+        [2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe   CMakeFiles/cmTC_2ea5c.dir/PQXX_HAVE_SLEEP_FOR.cxx.obj -o cmTC_2ea5c.exe -Wl,--out-implib,libcmTC_2ea5c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:50 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SOURCE_LOCATION"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_84e8d && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_84e8d.dir/PQXX_HAVE_SOURCE_LOCATION.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SOURCE_LOCATION.cxx
+        FAILED: CMakeFiles/cmTC_84e8d.dir/PQXX_HAVE_SOURCE_LOCATION.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_84e8d.dir/PQXX_HAVE_SOURCE_LOCATION.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SOURCE_LOCATION.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SOURCE_LOCATION.cxx:5:4: error: #error "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is not set."
+            5 | #  error "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is not set."
+              |    ^~~~~
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SOURCE_LOCATION.cxx:8:4: error: #error "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is false."
+            8 | #  error "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is false."
+              |    ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:54 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SPAN"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_4d2a4 && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_4d2a4.dir/PQXX_HAVE_SPAN.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SPAN.cxx
+        FAILED: CMakeFiles/cmTC_4d2a4.dir/PQXX_HAVE_SPAN.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_4d2a4.dir/PQXX_HAVE_SPAN.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SPAN.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SPAN.cxx:5:4: error: #error "No PQXX_HAVE_SPAN: __cpp_lib_span is not set."
+            5 | #  error "No PQXX_HAVE_SPAN: __cpp_lib_span is not set."
+              |    ^~~~~
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SPAN.cxx:8:4: error: #error "No PQXX_HAVE_SPAN: __cpp_lib_span is false."
+            8 | #  error "No PQXX_HAVE_SPAN: __cpp_lib_span is false."
+              |    ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:58 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SSIZE"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_b43ad && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_b43ad.dir/PQXX_HAVE_SSIZE.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SSIZE.cxx
+        FAILED: CMakeFiles/cmTC_b43ad.dir/PQXX_HAVE_SSIZE.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_b43ad.dir/PQXX_HAVE_SSIZE.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SSIZE.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SSIZE.cxx:5:4: error: #error "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is not set."
+            5 | #  error "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is not set."
+              |    ^~~~~
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_SSIZE.cxx:8:4: error: #error "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is false."
+            8 | #  error "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is false."
+              |    ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:62 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_R"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_fee6e && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_fee6e.dir/PQXX_HAVE_STRERROR_R.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_STRERROR_R.cxx
+        FAILED: CMakeFiles/cmTC_fee6e.dir/PQXX_HAVE_STRERROR_R.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_fee6e.dir/PQXX_HAVE_STRERROR_R.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_STRERROR_R.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_STRERROR_R.cxx: In function 'int main()':
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_STRERROR_R.cxx:11:12: error: 'strerror_r' was not declared in this scope; did you mean 'strerror_s'?
+           11 |   auto res{strerror_r(1, buffer, 200)};
+              |            ^~~~~~~~~~
+              |            strerror_s
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:66 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_S"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_812d3 && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_812d3.dir/PQXX_HAVE_STRERROR_S.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_STRERROR_S.cxx
+        [2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe   CMakeFiles/cmTC_812d3.dir/PQXX_HAVE_STRERROR_S.cxx.obj -o cmTC_812d3.exe -Wl,--out-implib,libcmTC_812d3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:70 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_THREAD_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_2fcdf && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_2fcdf.dir/PQXX_HAVE_THREAD_LOCAL.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_THREAD_LOCAL.cxx
+        FAILED: CMakeFiles/cmTC_2fcdf.dir/PQXX_HAVE_THREAD_LOCAL.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_2fcdf.dir/PQXX_HAVE_THREAD_LOCAL.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_THREAD_LOCAL.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_THREAD_LOCAL.cxx:10:6: error: #error "On MinGW before gcc 11.1, thread_local breaks at run time."
+           10 | #    error "On MinGW before gcc 11.1, thread_local breaks at run time."
+              |      ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:74 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_YEAR_MONTH_DAY"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_57d9f && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_57d9f.dir/PQXX_HAVE_YEAR_MONTH_DAY.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_YEAR_MONTH_DAY.cxx
+        FAILED: CMakeFiles/cmTC_57d9f.dir/PQXX_HAVE_YEAR_MONTH_DAY.cxx.obj 
+        C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_57d9f.dir/PQXX_HAVE_YEAR_MONTH_DAY.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_YEAR_MONTH_DAY.cxx
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_YEAR_MONTH_DAY.cxx: In function 'int main()':
+        C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/PQXX_HAVE_YEAR_MONTH_DAY.cxx:6:27: error: 'year' is not a member of 'std::chrono'
+            6 |   return int(std::chrono::year{1});
+              |                           ^~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:78 (try_compile)"
+      - "cmake/config.cmake:44 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+      binary: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "no_need_fslib"
+      cached: true
+      stdout: |
+        Change Dir: C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/dev/mingw64/bin/ninja.exe -v cmTC_f6a37 && [1/2] C:\\dev\\mingw64\\bin\\c++.exe   -std=c++17 -o CMakeFiles/cmTC_f6a37.dir/no_need_fslib.cxx.obj -c C:/dev/Clione/MSU/API/Server/libpqxx-7.9.2/config-tests/no_need_fslib.cxx
+        [2/2] cmd.exe /C "cd . && C:\\dev\\mingw64\\bin\\c++.exe   CMakeFiles/cmTC_f6a37.dir/no_need_fslib.cxx.obj -o cmTC_f6a37.exe -Wl,--out-implib,libcmTC_f6a37.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
